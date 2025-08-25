@@ -1,2 +1,2 @@
-here# Online Class App
-MVP version for online classes with live streaming & video uploads.
+# Online Class App
+This is an app for online classes, video uploads, and Q&A for students.
