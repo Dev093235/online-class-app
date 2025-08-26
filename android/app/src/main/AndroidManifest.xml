@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:label="online_class_app"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
