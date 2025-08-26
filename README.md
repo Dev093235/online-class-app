@@ -15,4 +15,4 @@ This is a Flutter-based application for online classes, built step-by-step using
 
 ## Contributors
 - Built with help from xAI's Grok.
-thanks
+wlcm
