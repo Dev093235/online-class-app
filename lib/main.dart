@@ -1,18 +1,24 @@
 import 'package:flutter/material.dart';
-import 'navigation.dart';
-import 'theme.dart';
 
 void main() {
-  runApp(App());
+  runApp(const MyApp());
 }
 
-class App extends StatelessWidget {
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Online Class App',
-      theme: AppTheme.getLightTheme(),
-      home: Navigation(),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const Scaffold(
+        body: Center(
+          child: Text('Welcome to Online Class App!'),
+        ),
+      ),
     );
   }
 }
